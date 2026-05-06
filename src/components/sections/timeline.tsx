@@ -30,7 +30,7 @@ export function TimelineSection() {
           <span className="text-xs font-medium uppercase tracking-[0.3em] text-muted">
             Cronologia
           </span>
-          <h2 className="font-serif text-5xl md:text-6xl font-light text-foreground">
+          <h2 className="font-forum text-5xl md:text-6xl font-light text-foreground">
             Uma época marcante
           </h2>
           <span className="mt-2 h-px w-16 bg-foreground/20" />
@@ -66,10 +66,10 @@ export function TimelineSection() {
                 >
                   {item.year}
                 </span>
-                <h3 className="font-serif text-3xl font-light text-foreground">
+                <h3 className="font-forum text-3xl font-light text-foreground">
                   {item.title}
                 </h3>
-                <p className="font-serif text-lg leading-8 text-foreground/70">
+                <p className="font-forum text-lg leading-8 text-foreground/70">
                   {item.text}
                 </p>
               </div>

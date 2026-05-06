@@ -58,7 +58,7 @@ export function GallerySection() {
             <span className="h-px flex-1 bg-foreground/10" />
           </div>
 
-          <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-center text-foreground mb-6 leading-[0.95]">
+          <h2 className="font-forum text-5xl md:text-7xl lg:text-8xl font-light text-center text-foreground mb-6 leading-[0.95]">
             Na mídia
           </h2>
           

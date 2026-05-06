@@ -5,35 +5,40 @@ export function HeroSection() {
   return (
     <>
       {/* Banner Section */}
-      <section className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden">
-        <OptimizedImage
-          src="/images/jewelry-banner.jpg"
-          alt="Joias artesanais do Mercado Babilônia"
-          fill
-          priority
-          quality="hero"
-          sizes={IMAGE_SIZES.full}
-          className="object-cover"
-          showLoader={false}
-        />
-        
-        {/* Overlay gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
-        
-        {/* Content overlay */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
-          <h1 className="font-serif text-7xl md:text-8xl lg:text-9xl font-light leading-[0.95] tracking-tight text-white mb-6">
-            Mercado
-            <br />
-            <span className="italic">Babilônia</span>
-          </h1>
+      <section className="relative w-full overflow-hidden">
+        <div className="relative w-full">
+          <OptimizedImage
+            src="/images/banner.png"
+            alt="Joias artesanais do Mercado Babilônia"
+            width={1920}
+            height={1080}
+            priority
+            quality="hero"
+            sizes={IMAGE_SIZES.full}
+            className="w-full h-auto"
+            showLoader={false}
+          />
           
-          <div className="flex items-center gap-4 mt-4">
-            <span className="h-px w-12 bg-white/60" />
-            <span className="text-[11px] font-medium uppercase tracking-[0.3em] text-white/80">
-              Vila Madalena · São Paulo · 1993
-            </span>
-            <span className="h-px w-12 bg-white/60" />
+          {/* Overlay gradient */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+          
+          {/* Content overlay */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+            <div className="ml-0 md:ml-[20%] max-w-md">
+              <h1 className="font-forum text-5xl md:text-6xl lg:text-7xl font-light leading-[0.95] tracking-tight text-white mb-5">
+                Mercado
+                <br />
+                <span className="italic">Babilônia</span>
+              </h1>
+              
+              <div className="flex items-center gap-3 mt-3">
+                <span className="h-px w-8 bg-white/60" />
+                <span className="text-[9px] font-medium uppercase tracking-[0.3em] text-white/80">
+                  Vila Madalena · São Paulo · 1993
+                </span>
+                <span className="h-px w-8 bg-white/60" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -56,7 +61,7 @@ export function HeroSection() {
 
             {/* Right - Text */}
             <div className="space-y-6 text-foreground/80 leading-relaxed">
-              <p className="text-lg md:text-xl font-serif">
+              <p className="text-lg md:text-xl font-forum">
                 Em 1993, a psicóloga e joalheira Simone Levy fundou o Mercado
                 Babilônia, um ateliê e loja localizado na Rua Harmonia 112, no
                 coração da Vila Madalena.

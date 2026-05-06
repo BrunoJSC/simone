@@ -6,13 +6,13 @@ export function StorySection() {
       {/* Dark section with narrative text */}
       <section className="bg-[#2a2a2a] dark:bg-[#1a1a1a] px-6 py-24">
         <div className="mx-auto max-w-4xl text-center space-y-8">
-          <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90">
+          <p className="font-forum text-xl md:text-2xl leading-relaxed text-white/90">
             Além das joias, o espaço abrigava objetos raros, roupas diferenciadas,
             acessórios para decoração, vindos de lugares como Bali, Índia, Nepal,
             Birmânia, China, Guatemala e Brasil. Uma verdadeira coleção de mundos
             dentro de um só.
           </p>
-          <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90">
+          <p className="font-forum text-xl md:text-2xl leading-relaxed text-white/90">
             Um marco importante foi o Bazar de Natal, que contava com a
             participação de artistas, designers, chefs, como Renato Inbroise,
             Rebecca Gerberov, Neka Menna Barreto, Lina Kim, Patrícia Magano, Marta
@@ -35,7 +35,7 @@ export function StorySection() {
         <div className="mx-auto max-w-6xl">
           {/* Section header */}
           <div className="mb-16">
-            <h2 className="font-serif text-5xl md:text-6xl font-light text-foreground mb-8">
+            <h2 className="font-forum text-5xl md:text-6xl font-light text-foreground mb-8">
               A história
             </h2>
           </div>
@@ -69,7 +69,7 @@ export function StorySection() {
             </div>
 
             {/* Right - Text content */}
-            <div className="space-y-6 font-serif text-lg leading-relaxed text-foreground/80">
+            <div className="space-y-6 font-forum text-lg leading-relaxed text-foreground/80">
               <p>
                 Refletia as influências das viagens de Simone à Índia, Nepal e
                 Europa, com fontes, arcos indianos, árabes, italianos, paredes
@@ -106,7 +106,7 @@ export function StorySection() {
       <section className="px-6 py-24 bg-foreground/[0.02]">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12" style={{ textAlign: "center" }}>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground mb-4">
+            <h2 className="font-forum text-4xl md:text-5xl font-light text-foreground mb-4">
               O mercado
             </h2>
             <p className="text-lg text-muted">
