@@ -14,8 +14,8 @@ export function StorySection() {
           </p>
           <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90">
             Um marco importante foi o Bazar de Natal, que contava com a
-            participação de artistas, designers, chefs, como Renato Inhorata,
-            Rebecca Gerbenov, Neka Menna Barreto, Lina Kim, Patricia Magano, Maria
+            participação de artistas, designers, chefs, como Renato Inbroise,
+            Rebecca Gerberov, Neka Menna Barreto, Lina Kim, Patrícia Magano, Marta
             Meyer, etc. A partir desse evento, a porta da loja se abriu de vez e o
             Mercado Babilônia passou a operar de forma mais ampla, até encerrar
             suas atividades em 1997.
@@ -92,9 +92,10 @@ export function StorySection() {
               </blockquote>
 
               <p>
-                Refletia as influências das viagens de Simone à Índia, Nepal e
-                Europa, com fontes, arcos indianos, árabes, italianos, paredes
-                pintadas à mão e vitrais antigos, que compunham um cenário único.
+                O grande destaque do ateliê eram seus anéis de poder, de ouro e
+                prata, todos esculpidos e gravados à mão, com pedras cuidadosamente
+                escolhidas para cada pessoa. Nos primeiros anos, o atendimento era
+                exclusivo, realizado sob demanda, com portas fechadas.
               </p>
             </div>
           </div>
