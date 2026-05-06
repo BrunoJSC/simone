@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mercado Babilônia - Biografia Digital
 
-## Getting Started
+Site biográfico do Mercado Babilônia, ateliê de joias autorais fundado por Simone Levy em 1993 na Vila Madalena, São Paulo.
 
-First, run the development server:
+## 🎨 Sobre o Projeto
+
+Este site é uma homenagem digital à história do Mercado Babilônia, um espaço que marcou época na Vila Madalena entre 1993 e 1997. Mais do que uma loja, era uma experiência sensorial única, com arquitetura singular inspirada em viagens à Índia, Nepal e Europa.
+
+### Características
+
+- ✨ Design biográfico e narrativo
+- 📸 Galeria horizontal com imagens históricas
+- 🎭 Layout limpo e elegante
+- 📱 Totalmente responsivo
+- ⚡ Otimizado para performance
+- 🖼️ Lightbox para visualização de imagens
+
+## 🚀 Início Rápido
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Instalar dependências
+pnpm install
+
+# Executar em desenvolvimento
 pnpm dev
-# or
-bun dev
+
+# Abrir no navegador
+# http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estrutura do Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+mercado-babilonia/
+├── public/
+│   └── images/              # Todas as imagens do site
+│       ├── hero/            # Imagem principal
+│       ├── about/           # Biografia e ateliê
+│       ├── atelier/         # Detalhes arquitetônicos
+│       ├── gallery/         # Mídia e joias
+│       └── branding/        # Logos
+├── src/
+│   ├── app/                 # App Router (Next.js 16)
+│   ├── components/
+│   │   ├── ui/              # Componentes reutilizáveis
+│   │   ├── sections/        # Seções da página
+│   │   └── layout/          # Header e Footer
+│   └── lib/
+│       └── image-config.ts  # Configuração centralizada
+└── docs/                    # Documentação
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologias
 
-## Learn More
+- **Next.js 16** - Framework React com App Router
+- **React 19** - Biblioteca UI
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS 4** - Estilização
+- **Biome** - Linting e formatação
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Gerenciamento de Imagens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Adicionar Nova Imagem
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Coloque o arquivo em `public/images/[categoria]/`
+2. Registre em `src/lib/image-config.ts`
+3. A imagem aparecerá automaticamente
 
-## Deploy on Vercel
+### Reorganizar Imagens Existentes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```powershell
+.\reorganize-images.ps1
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Veja [IMAGE_ORGANIZATION.md](IMAGE_ORGANIZATION.md) para detalhes.
+
+## 📝 Documentação
+
+- [GUIA_RAPIDO.md](GUIA_RAPIDO.md) - Guia rápido de uso
+- [MELHORIAS_IMPLEMENTADAS.md](MELHORIAS_IMPLEMENTADAS.md) - Changelog detalhado
+- [IMAGE_ORGANIZATION.md](IMAGE_ORGANIZATION.md) - Organização de imagens
+
+## 🎯 Seções do Site
+
+### Hero
+Layout split com imagem histórica e título principal.
+
+### Highlights
+Cards com informações-chave (fundação, especialidade, influências).
+
+### Story
+Narrativa completa dividida em:
+- Seção escura com texto destacado
+- Biografia com imagens
+- "O mercado" com foto panorâmica
+
+### Timeline
+Linha do tempo dos principais eventos.
+
+### Atelier Details
+Galeria horizontal com detalhes arquitetônicos.
+
+### Gallery
+Galeria unificada com scroll horizontal de imagens de mídia e joias.
+
+## 🎨 Personalização
+
+### Cores
+
+Edite `src/app/globals.css`:
+
+```css
+:root {
+  --background: #faf9f7;
+  --foreground: #1a1a1a;
+  --muted: #6b6b6b;
+  --border: #e0ddd8;
+}
+```
+
+### Conteúdo
+
+Edite os arquivos em `src/components/sections/`:
+- `hero.tsx` - Seção principal
+- `story.tsx` - História e biografia
+- `gallery.tsx` - Galeria de imagens
+
+## 🚀 Deploy
+
+### Vercel (Recomendado)
+
+```bash
+vercel
+```
+
+### Build Manual
+
+```bash
+pnpm build
+pnpm start
+```
+
+## 📱 Responsividade
+
+Testado e otimizado para:
+- 📱 Mobile (375px+)
+- 📱 Tablet (768px+)
+- 💻 Desktop (1440px+)
+
+## ⚡ Performance
+
+- Lazy loading de imagens
+- Otimização automática pelo Next.js
+- Qualidade adaptativa por contexto
+- Scroll suave e animações leves
+
+## 🤝 Contribuindo
+
+Este é um projeto de homenagem. Sugestões e melhorias são bem-vindas!
+
+## 📄 Licença
+
+Este projeto é uma biografia digital do Mercado Babilônia.
+
+## 🌟 Créditos
+
+- **Fundadora**: Simone Levy
+- **Design**: Inspirado no site original
+- **Desenvolvimento**: Next.js 16 + React 19
+
+---
+
+**Mercado Babilônia** - Um legado de arte, cultura e espiritualidade (1993-1997)
+
