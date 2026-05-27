@@ -7,17 +7,16 @@ export function HeroSection() {
       {/* Banner Section */}
       <section className="relative w-full overflow-hidden">
         <div className="relative w-full">
-          <OptimizedImage
-            src="/images/banner.png"
-            alt="Joias artesanais do Mercado Babilônia"
-            width={1920}
-            height={1080}
-            priority
-            quality="hero"
-            sizes={IMAGE_SIZES.full}
-            className="w-full h-auto"
-            showLoader={false}
-          />
+          <div className="relative h-full min-h-[400px] w-full overflow-hidden">
+            <OptimizedImage
+              src="/images/simone-levy-portrait.jpg"
+              alt="Simone Levy, fundadora do Mercado Babilônia"
+              fill
+              quality="thumbnail"
+              sizes="(max-width: 768px) 100vw, 40vw"
+              className="object-cover sepia-[0.15]"
+            />
+          </div>
 
           {/* Overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
@@ -61,7 +60,7 @@ export function HeroSection() {
 
             {/* Right - Text */}
             <div className="space-y-6 text-foreground/80 leading-relaxed">
-              <h1 className="text-foreground font-bold text-center">
+              <h1 className="text-foreground font-bold text-center text-2xl">
                 A história
               </h1>
               <p className="text-lg md:text-xl font-forum">
@@ -71,14 +70,14 @@ export function HeroSection() {
                 uma verdadeira experiência sensorial, com arquitetura singular e
                 atmosfera mística.
               </p>
-              <p className="text-base md:text-lg">
+              <p className="text-lg md:text-lg">
                 Refletia as influências das viagens de Simone à Índia, Nepal e
                 Europa, com fontes, arcos indianos, árabes, italianos, paredes
                 pintadas à mão e vitrais antigos, que compunham um cenário,
                 despertando a curiosidade de quem passava por sua fachada
                 excêntrica, sem placa, com acesso apenas por campainha. ​
               </p>
-              <p>
+              <p className="text-lg ">
                 Filha de ourives, Simone cresceu entre pedras preciosas e
                 semipreciosas, mas seguiu seu próprio caminho. Incorporou
                 técnicas étnicas tradicionais de ouro e ourivesaria indiana e

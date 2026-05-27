@@ -45,7 +45,9 @@ export function AtelierDetailsSection() {
                   className="object-cover opacity-0"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-sm text-gray-400">Imagem não disponível</span>
+                  <span className="text-sm text-gray-400">
+                    Imagem não disponível
+                  </span>
                 </div>
               </div>
             ))}
