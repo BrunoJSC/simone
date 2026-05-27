@@ -61,6 +61,9 @@ export function HeroSection() {
 
             {/* Right - Text */}
             <div className="space-y-6 text-foreground/80 leading-relaxed">
+              <h1 className="text-foreground font-bold text-center">
+                A história
+              </h1>
               <p className="text-lg md:text-xl font-forum">
                 Em 1993, a psicóloga e joalheira Simone Levy fundou o Mercado
                 Babilônia, um ateliê e loja localizado na Rua Harmonia 112, no
