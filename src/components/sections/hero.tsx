@@ -43,49 +43,46 @@ export function HeroSection() {
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className="px-6 py-20 bg-background">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left - Portrait */}
-            <div className="relative aspect-[3/4] w-full overflow-hidden">
-              <OptimizedImage
-                src="/images/simone-levy-portrait.jpg"
-                alt="Simone Levy, fundadora do Mercado Babilônia"
-                fill
-                quality="hero"
-                sizes="(max-width: 768px) 100vw, 40vw"
-                className="object-cover sepia-[0.15]"
-              />
-            </div>
+      {/* Intro Section - Split layout: image left, text right */}
+      <section className="bg-background pt-16 md:pt-24 lg:pt-32">
+        <div className="grid md:grid-cols-2 md:min-h-[80vh]">
+          {/* Left - Portrait fills full height, shows full body */}
+          <div className="relative min-h-[80vh] md:min-h-full overflow-hidden bg-foreground/[0.03]">
+            <OptimizedImage
+              src="/images/simone-levy-portrait.jpg"
+              alt="Simone Levy, fundadora do Mercado Babilônia"
+              fill
+              quality="hero"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="sepia-[0.15]"
+              objectFit="contain"
+            />
+          </div>
 
-            {/* Right - Text */}
-            <div className="space-y-6 text-foreground/80 leading-relaxed">
-              <h1 className="text-foreground font-bold text-center text-2xl">
-                A história
-              </h1>
-              <p className="text-lg md:text-xl font-forum">
-                Em 1993, a psicóloga e joalheira Simone Levy fundou o Mercado
-                Babilônia, um ateliê e loja localizado na Rua Harmonia 112, no
-                coração da Vila Madalena. O espaço, mais do que uma loja, era
-                uma verdadeira experiência sensorial, com arquitetura singular e
-                atmosfera mística.
-              </p>
-              <p className="text-lg md:text-xl">
-                Refletia as influências das viagens de Simone à Índia, Nepal e
-                Europa, com fontes, arcos indianos, árabes, italianos, paredes
-                pintadas à mão e vitrais antigos, que compunham um cenário,
-                despertando a curiosidade de quem passava por sua fachada
-                excêntrica, sem placa, com acesso apenas por campainha. ​
-              </p>
-              <p className="text-lg md:text-xl">
-                Filha de ourives, Simone cresceu entre pedras preciosas e
-                semipreciosas, mas seguiu seu próprio caminho. Incorporou
-                técnicas étnicas tradicionais de ouro e ourivesaria indiana e
-                seus estudos sobre o poder das pedras em criações autorais,
-                dando origem a joias únicas.
-              </p>
-            </div>
+          {/* Right - Text */}
+          <div className="flex flex-col justify-center px-6 md:px-16 lg:px-24 py-16 md:py-24 space-y-6 text-foreground/80 leading-relaxed">
+            <h1 className="text-foreground font-bold text-2xl">A história</h1>
+            <p className="text-lg md:text-xl">
+              Em 1993, a psicóloga e joalheira Simone Levy fundou o Mercado
+              Babilônia, um ateliê e loja localizado na Rua Harmonia 112, no
+              coração da Vila Madalena. O espaço, mais do que uma loja, era
+              uma verdadeira experiência sensorial, com arquitetura singular e
+              atmosfera mística.
+            </p>
+            <p className="text-lg md:text-xl">
+              Refletia as influências das viagens de Simone à Índia, Nepal e
+              Europa, com fontes, arcos indianos, árabes, italianos, paredes
+              pintadas à mão e vitrais antigos, que compunham um cenário,
+              despertando a curiosidade de quem passava por sua fachada
+              excêntrica, sem placa, com acesso apenas por campainha. ​
+            </p>
+            <p className="text-lg md:text-xl">
+              Filha de ourives, Simone cresceu entre pedras preciosas e
+              semipreciosas, mas seguiu seu próprio caminho. Incorporou
+              técnicas étnicas tradicionais de ouro e ourivesaria indiana e
+              seus estudos sobre o poder das pedras em criações autorais,
+              dando origem a joias únicas.
+            </p>
           </div>
         </div>
       </section>

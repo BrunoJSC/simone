@@ -69,7 +69,7 @@ export function TimelineSection() {
                 <h3 className="font-forum text-3xl font-light text-foreground">
                   {item.title}
                 </h3>
-                <p className="font-forum text-lg leading-8 text-foreground/70">
+                <p className="text-lg leading-8 text-foreground/70">
                   {item.text}
                 </p>
               </div>
