@@ -7,16 +7,17 @@ export function HeroSection() {
       {/* Banner Section */}
       <section className="relative w-full overflow-hidden">
         <div className="relative w-full">
-          <div className="relative h-full min-h-[400px] w-full overflow-hidden">
-            <OptimizedImage
-              src="/images/simone-levy-portrait.jpg"
-              alt="Simone Levy, fundadora do Mercado Babilônia"
-              fill
-              quality="thumbnail"
-              sizes="(max-width: 768px) 100vw, 40vw"
-              className="object-cover sepia-[0.15]"
-            />
-          </div>
+          <OptimizedImage
+            src="/images/banner.png"
+            alt="Joias artesanais do Mercado Babilônia"
+            width={1920}
+            height={1080}
+            priority
+            quality="thumbnail"
+            sizes={IMAGE_SIZES.full}
+            className="w-full h-auto"
+            showLoader={false}
+          />
 
           {/* Overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
@@ -70,14 +71,14 @@ export function HeroSection() {
                 uma verdadeira experiência sensorial, com arquitetura singular e
                 atmosfera mística.
               </p>
-              <p className="text-lg md:text-lg">
+              <p className="text-lg md:text-xl">
                 Refletia as influências das viagens de Simone à Índia, Nepal e
                 Europa, com fontes, arcos indianos, árabes, italianos, paredes
                 pintadas à mão e vitrais antigos, que compunham um cenário,
                 despertando a curiosidade de quem passava por sua fachada
                 excêntrica, sem placa, com acesso apenas por campainha. ​
               </p>
-              <p className="text-lg ">
+              <p className="text-lg md:text-xl">
                 Filha de ourives, Simone cresceu entre pedras preciosas e
                 semipreciosas, mas seguiu seu próprio caminho. Incorporou
                 técnicas étnicas tradicionais de ouro e ourivesaria indiana e

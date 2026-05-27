@@ -107,7 +107,7 @@ export function StorySection() {
       <section className="px-6 py-24 bg-foreground/[0.02]">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12" style={{ textAlign: "center" }}>
-            <h2 className="font-forum text-5xl md:text-5xl font-light text-foreground mb-4">
+            <h2 className="font-forum text-4xl md:text-5xl font-light text-foreground mb-4">
               O mercado
             </h2>
             <p className="text-lg font-bold">Vila Madalena, São Paulo - 1980</p>
@@ -136,11 +136,11 @@ export function StorySection() {
             >
               O grande destaque do ateliê eram seus anéis de poder, de ouro e
               prata, todos esculpidos e gravados à mão, com pedras
-              cuidadosamente escolhidas para cada pessoa — verdadeiros talismãs.
-              Nos primeiros anos, o atendimento era exclusivo, realizado sob
-              demanda, com portas fechadas. Ainda assim, o Mercado Babilônia foi
-              se tornando um ponto de interesse na região, atraindo olhares de
-              curiosos e uma clientela fiel.
+              cuidadosamente escolhidas para cada pessoa — talismãs para quem os
+              usava. Nos primeiros anos, o atendimento era exclusivo, realizado
+              sob demanda, com portas fechadas. Ainda assim, o Mercado Babilônia
+              foi se tornando um ponto de interesse na região, atraindo olhares
+              de curiosos e uma clientela fiel.
             </p>
           </div>
         </div>
