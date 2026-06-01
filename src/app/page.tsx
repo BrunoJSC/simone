@@ -1,4 +1,4 @@
-import { AtelierDetailsSection } from "@/components/sections/atelier-details";
+// import { AtelierDetailsSection } from "@/components/sections/atelier-details";
 import { BazarSection } from "@/components/sections/bazar";
 import { EpilogueSection } from "@/components/sections/epilogue";
 import { FooterSection } from "@/components/sections/footer";
@@ -17,7 +17,7 @@ export default function Home() {
       <EpilogueSection />
       <HighlightsSection />
       <TimelineSection />
-      <AtelierDetailsSection />
+      {/* <AtelierDetailsSection /> */}
       <GallerySection />
       <FooterSection />
     </>
