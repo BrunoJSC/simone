@@ -27,9 +27,9 @@ export function AtelierDetailsSection() {
         {/* Horizontal scrolling gallery */}
         <div className="overflow-x-auto scrollbar-hide">
           <div className="flex gap-4 px-6 min-w-max justify-center">
-            {ATELIER_DETAILS.map((detail, i) => (
+            {ATELIER_DETAILS.map((detail) => (
               <div
-                key={i}
+                key={detail.alt}
                 className="relative flex-shrink-0 bg-gray-100"
                 style={{
                   width: "320px",

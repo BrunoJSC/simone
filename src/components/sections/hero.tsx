@@ -8,12 +8,12 @@ export function HeroSection() {
       <section className="relative w-full overflow-hidden">
         <div className="relative w-full">
           <OptimizedImage
-            src="/images/banner.png"
+            src="/images/upscalemedia-transformed.png"
             alt="Joias artesanais do Mercado Babilônia"
-            width={1920}
-            height={1080}
+            width={3074}
+            height={2046}
             priority
-            quality="thumbnail"
+            quality="hero"
             sizes={IMAGE_SIZES.full}
             className="w-full h-auto"
             showLoader={false}
