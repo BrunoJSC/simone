@@ -12,7 +12,7 @@ const GALLERY_IMAGES = [
   { src: "/images/gallery-05.jpg", alt: "Fonte decorativa 2", width: 650, height: 850 },
   { src: "/images/gallery-06.jpg", alt: "Porta azul com detalhes", width: 600, height: 900 },
   { src: "/images/gallery-07.jpg", alt: "Arco de tijolos", width: 900, height: 600 },
-  { src: "/images/atelier-interior.jpg", alt: "Interior do ateliê", width: 1200, height: 800 },
+  { src: "/images/atelier-interior.jpeg", alt: "Interior do ateliê", width: 4146, height: 6058 },
 ];
 
 export function GallerySection() {
@@ -53,17 +53,17 @@ export function GallerySection() {
           <div className="flex items-center gap-6 mb-8">
             <span className="h-px flex-1 bg-foreground/10" />
             <span className="text-[10px] md:text-xs font-medium uppercase tracking-[0.4em] text-foreground/50">
-              Repercussão
+              Acervo
             </span>
             <span className="h-px flex-1 bg-foreground/10" />
           </div>
 
           <h2 className="font-forum text-5xl md:text-7xl lg:text-8xl font-light text-center text-foreground mb-6 leading-[0.95]">
-            Na mídia
+            Galeria
           </h2>
-          
+
           <p className="text-center text-base md:text-lg text-foreground/60 max-w-2xl mx-auto leading-relaxed">
-            Recortes e publicações que documentaram a trajetória do Mercado Babilônia
+            O ateliê e seus detalhes arquitetônicos na Vila Madalena
           </p>
         </div>
 

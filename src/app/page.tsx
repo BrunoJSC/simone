@@ -5,6 +5,7 @@ import { FooterSection } from "@/components/sections/footer";
 import { GallerySection } from "@/components/sections/gallery";
 import { HeroSection } from "@/components/sections/hero";
 import { HighlightsSection } from "@/components/sections/highlights";
+import { MidiaSection } from "@/components/sections/midia";
 import { StorySection } from "@/components/sections/story";
 import { TimelineSection } from "@/components/sections/timeline";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <TimelineSection />
       {/* <AtelierDetailsSection /> */}
       <GallerySection />
+      <MidiaSection />
       <FooterSection />
     </>
   );
