@@ -5,7 +5,7 @@ import { useState } from "react";
 
 // Imagens da galeria com dimensões reais (aproximadas)
 const GALLERY_IMAGES = [
-  { src: "/images/gallery-01.jpg", alt: "Interior do ateliê Mercado Babilônia", width: 800, height: 600 },
+  { src: "/images/gallery-01.jpeg", alt: "Interior do ateliê Mercado Babilônia", width: 7104, height: 4608 },
   { src: "/images/gallery-02.jpg", alt: "Porta decorada com arco ornamental", width: 600, height: 800 },
   { src: "/images/gallery-03.jpg", alt: "Parede de tijolos e detalhes arquitetônicos", width: 700, height: 900 },
   { src: "/images/gallery-04.jpg", alt: "Fonte decorativa 1", width: 600, height: 800 },
