@@ -49,7 +49,7 @@ export function HeroSection() {
           {/* Left - Portrait fills full height, shows full body */}
           <div className="relative min-h-[80vh] md:min-h-full overflow-hidden bg-foreground/[0.03]">
             <OptimizedImage
-              src="/images/simone-levy-portrait.jpg"
+              src="/images/simone-levy-portrait.jpeg"
               alt="Simone Levy, fundadora do Mercado Babilônia"
               fill
               quality="hero"
