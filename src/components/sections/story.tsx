@@ -28,7 +28,7 @@ export function StorySection() {
           {/* Right - Image fills full height and width */}
           <div className="relative min-h-[60vh] md:min-h-full overflow-hidden">
             <OptimizedImage
-              src="/images/atelier-interior.jpg"
+              src="/images/atelier-interior.jpeg"
               alt="Interior do ateliê Mercado Babilônia"
               fill
               quality="hero"

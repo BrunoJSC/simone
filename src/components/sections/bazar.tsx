@@ -27,7 +27,7 @@ export function BazarSection() {
 
           <div className="relative aspect-3/2 w-full max-w-sm">
             <OptimizedImage
-              src="/images/logo-snakes-roses.jpg"
+              src="/images/logo-snakes-roses.jpeg"
               alt="Logo Mercado Babilônia"
               fill
               quality="default"

@@ -3,7 +3,7 @@ import { OptimizedImage } from "@/components/ui/optimized-image";
 // Detalhes arquitetônicos do ateliê - usando imagens existentes como placeholder
 const ATELIER_DETAILS = [
   {
-    src: "/images/atelier-interior.jpg",
+    src: "/images/atelier-interior.jpeg",
     alt: "Interior do ateliê",
   },
   {
@@ -15,7 +15,7 @@ const ATELIER_DETAILS = [
     alt: "Anéis e objetos",
   },
   {
-    src: "/images/atelier-interior.jpg",
+    src: "/images/atelier-interior.jpeg",
     alt: "Arquitetura do espaço",
   },
 ];
